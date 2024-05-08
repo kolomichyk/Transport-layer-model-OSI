@@ -44,7 +44,7 @@ producer = KafkaProducer(
     operation_description="Положить сегмент в брокер сообщений Kafka"
 )
 @api_view(['POST'])
-def post_msg(request):
+def post_segment(request):
     """
         Положить сегмент в брокер сообщений Kafka
     """
